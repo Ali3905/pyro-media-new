@@ -41,6 +41,7 @@ const Form = () => {
   const formFields = [
     { name: 'name', label: 'Name*', type: 'text', validation: { required: "Name is required" } },
     { name: 'link', label: 'Link*', type: 'text', validation: { required: "Link is required" } },
+    { name: 'email', label: 'Email*', type: 'text', validation: { required: "Email is required" } },
     { name: 'followers', label: 'followers', type: 'number', validation: { required: "Followers are required" } },
     { name: 'avgViewsReels', label: 'avgViewsReels*', type: 'number', validation: { required: "Average views reel required" } },
     { name: 'avgLikesReels', label: 'avgLikesReels*', type: 'number', validation: { required: "Average likes reel required" } },
